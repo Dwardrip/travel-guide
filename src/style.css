@@ -31,6 +31,10 @@ body {
     grid-template-columns: 1fr 2fr 2fr;
 }
 
+.grid-3-columns {
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
 .img-responsive {
     width: 100%;
     display: block; 
@@ -51,7 +55,7 @@ body {
 
 }
 
-.instagram-media {
+.youtube-embed {
     margin: 30px 0;
 }
 
@@ -257,6 +261,10 @@ footer a {
     }
 
     .embed {
+        aspect-ratio: 16 / 9;
+    }
+
+    .youtube-embed {
         aspect-ratio: 16 / 9;
     }
 

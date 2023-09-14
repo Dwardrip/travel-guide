@@ -32,12 +32,26 @@ body {
 }
 
 .img-responsive {
-    max-width: 100%;
+    width: 100%;
     display: block; 
 }
 
 .card {
     background: white;
+    margin: 30px 0;
+}
+
+.card-header.grid {
+    grid-gap: 0;
+}
+
+.embed {
+    width: 100%;
+    aspect-ratio: 16 /11;
+
+}
+
+.instagram-media {
     margin: 30px 0;
 }
 
@@ -48,6 +62,8 @@ body {
 .card-footer {
     padding: 0 30px 30px;
 }
+
+
 
 .btn {
     display:block;
@@ -236,8 +252,12 @@ footer a {
         grid-gap: 32px;
     }
 
-    .card-header {
+    .card-header img {
         display: none;
+    }
+
+    .embed {
+        aspect-ratio: 16 / 9;
     }
 
     section {
